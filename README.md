@@ -57,7 +57,7 @@ Currently building **Forge** — a full-stack professional networking platform f
 
 ### Forge — UVic Student Professional Network *(in development)*
 
-> A full-stack LinkedIn-style platform built exclusively for University of Victoria students — currently being pitched to UVic as a licensed service.
+> A full-stack LinkedIn-style platform built exclusively for University of Victoria students — with hopes of being pitched to UVic as a eervice for students.
 
 **What it does:**
 - LinkedIn-style profiles with live GitHub integration showing real tech stacks and repo stats
