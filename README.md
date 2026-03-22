@@ -8,9 +8,9 @@
 
 ## About Me
 
-I build software that works — and can prove it. My background spans Quality Assurance at **ACD Systems** (120+ defects found, 25% coverage increase) through to full-stack products engineered from requirements to release. I apply principles from **Requirements Engineering (SENG 321)** and **Operating Systems (CSC 360)** to write code that's not just functional, but defensible.
+I build software that works — and can prove it. My background spans Quality Assurance at **ACD Systems** (120+ defects found, 25% coverage increase) through to full-stack products engineered from requirements to release. I apply principles from **Requirements Engineering (SENG 321)** and **Operating Systems (CSC 360)** to build systems that are not just functional, but defensible, testable, and production-aware.
 
-Currently building **Forge** — a full-stack professional networking platform for UVic students — and deepening my expertise in modern full-stack architecture, relational databases, and real-time systems.
+Most recently, I completed **Forge v2** — a pitch-ready professional networking platform for UVic students focused on verified profiles, project collaboration, and connection-gated messaging. Through this build, I deepened my expertise in modern full-stack architecture, relational data modeling, webhook-driven identity sync, and real-time application flows.
 
 ---
 
@@ -27,15 +27,21 @@ Currently building **Forge** — a full-stack professional networking platform f
 
 **Frameworks & Libraries**
 
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
-![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js_16-000000?style=for-the-badge&logo=next.js&logoColor=white)
+![React](https://img.shields.io/badge/React_19-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS_4-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![Prisma](https://img.shields.io/badge/Prisma_7-2D3748?style=for-the-badge&logo=prisma&logoColor=white)
+![Clerk](https://img.shields.io/badge/Clerk-6C47FF?style=for-the-badge)
+![React Hook Form](https://img.shields.io/badge/React_Hook_Form-EC5990?style=for-the-badge)
+![Zod](https://img.shields.io/badge/Zod-3E67B1?style=for-the-badge)
+![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge)
 
 **Backend & Infrastructure**
 
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
+![Supabase Realtime](https://img.shields.io/badge/Supabase_Realtime-3ECF8E?style=for-the-badge)
+![Supabase Storage](https://img.shields.io/badge/Supabase_Storage-3ECF8E?style=for-the-badge)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 
 **Tools & Workflow**
@@ -45,41 +51,40 @@ Currently building **Forge** — a full-stack professional networking platform f
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 
-**Currently Learning**
+**Recently Learned & Applied**
 
-![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![OpenAI API](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+![Clerk Webhooks](https://img.shields.io/badge/Clerk_Webhooks-6C47FF?style=for-the-badge)
+![Prisma Migrations](https://img.shields.io/badge/Prisma_Migrations-2D3748?style=for-the-badge)
+![Realtime Messaging](https://img.shields.io/badge/Realtime_Messaging-0EA5E9?style=for-the-badge)
+![Form Validation](https://img.shields.io/badge/Form_Validation-F43F5E?style=for-the-badge)
+![Storage Uploads](https://img.shields.io/badge/Storage_Uploads-10B981?style=for-the-badge)
 
 ---
 
-## 🚧 Currently Building
+## 🚀 Featured Projects
 
-### Forge — UVic Student Professional Network *(in development)*
+### Forge v2 — [forge-app-v2](https://github.com/muhammadw8460/forge-app-v2)
 
-> A full-stack LinkedIn-style platform built exclusively for University of Victoria students — with hopes of being pitched to UVic as a eervice for students.
+> A pitch-ready professional networking platform for UVic students to build verified profiles, find teammates, and grow real technical momentum.
 
 **What it does:**
-- LinkedIn-style profiles with live GitHub integration showing real tech stacks and repo stats
-- Project board where students post projects and recruit teammates by skill
-- Real-time direct messaging powered by Supabase Realtime (WebSockets)
-- AI-powered project matching using OpenAI to recommend relevant projects and collaborators
-- Community feed with posts, reactions, and comments
-- Connections network with email notifications
+- Verified student profiles with onboarding data, GitHub sync, and visible technical credibility
+- Project marketplace where students create projects, define open roles, and review applications
+- Community feed for updates, questions, and project sharing with persisted comments
+- Connection workflow that gates direct messaging until a request is accepted
+- Real-time messaging powered by persisted PostgreSQL data and Supabase Realtime subscriptions
+- Optional avatar uploads using Supabase Storage
 
 **What I built and learned making this:**
-- Relational database schema design with Prisma ORM and PostgreSQL
-- Distributed auth architecture — Clerk handles credentials, Supabase stores application data, synced via webhooks
-- Row Level Security for multi-tenant data protection at the database layer
-- Real-time WebSocket subscriptions without a separate WebSocket server
-- Server Actions and React Server Components in Next.js 15
-- Rate limiting, PIPEDA compliance, and production security patterns
+- Designed a full relational application model for users, profiles, projects, roles, posts, connections, and messages using Prisma + Supabase Postgres
+- Integrated **Clerk authentication** with webhook-driven syncing so identity flows stay separate from application data
+- Built connection-gated messaging to keep communication intentional and product-aligned
+- Layered real-time subscriptions on top of persisted data instead of relying on live transport alone
+- Shipped modern app flows using **Next.js 16**, **React 19**, **Tailwind CSS 4**, **React Hook Form**, **Zod**, and **Framer Motion**
 
-**Tech:** Next.js 15 · TypeScript · Supabase · Prisma · Clerk · Tailwind · OpenAI API · Vercel
+**Tech:** Next.js 16 · React 19 · TypeScript · Tailwind CSS 4 · Prisma 7 · Clerk · Supabase Postgres · Supabase Realtime · Supabase Storage · React Hook Form · Zod · Framer Motion · Vercel
 
 ---
-
-## 📌 Featured Project
 
 ### ♟ Chess Pro V2 — [chess-pro-v2](https://github.com/wali-rehman/chess-pro-v2)
 
