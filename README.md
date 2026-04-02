@@ -22,6 +22,7 @@ Most recently, I completed **Forge v2** — a pitch-ready professional networkin
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
 ![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
 
@@ -48,6 +49,7 @@ Most recently, I completed **Forge v2** — a pitch-ready professional networkin
 
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![JIRA](https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white)
+![CMake](https://img.shields.io/badge/CMake-064F8C?style=for-the-badge&logo=cmake&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 
@@ -102,7 +104,36 @@ Engineered using Requirements Engineering principles (SENG 321) to ensure 100% a
 
 ---
 
-## 💼 Experience
+### C++ Thread Pool — [cpp-thread-pool](https://github.com/muhammadw8460/cpp-thread-pool)
+
+> A reusable C++17 thread pool implementation focused on predictable task scheduling, synchronization correctness, and clean shutdown behavior.
+
+**What it does:**
+- Maintains a fixed-size worker pool with a shared task queue
+- Uses `std::condition_variable` for blocking wake-ups (no busy waiting)
+- Exposes a `submit()` API that returns `std::future` values
+- Runs queued tasks outside the queue lock for better worker throughput
+- Guarantees graceful shutdown by notifying and joining all worker threads
+
+**How I validated it:**
+- Added behavioral tests for full task execution, correct future-returned results, and destructor shutdown semantics
+- Built with modern CMake + C++17 using a separate demo target and test target
+- Kept architecture split between public API (`include/ThreadPool.h`) and implementation (`src/ThreadPool.cpp`)
+
+**Tech:** C++17 · std::thread · std::mutex · std::condition_variable · std::future · CMake · CTest
+
+---
+
+### Crow WebSocket Chat Server (In Progress)
+
+Currently building a lightweight web chat server using **Crow + Mustache** with:
+- username-based join flow,
+- real-time messaging over WebSockets,
+- and a simple frontend architecture (no heavy JS framework).
+
+---
+
+## Experience
 
 **Quality Assurance Analyst Co-op** — ACD Systems *(Jan 2024 – Aug 2024)*
 - Identified 120+ defects across product lines using black-box testing and JIRA
@@ -112,7 +143,7 @@ Engineered using Requirements Engineering principles (SENG 321) to ensure 100% a
 
 ---
 
-## 🎓 Education
+## Education
 
 **B.Eng. Software Engineering** — University of Victoria *(Expected Dec 2027)*
 
