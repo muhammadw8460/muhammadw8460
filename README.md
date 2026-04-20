@@ -124,12 +124,26 @@ Engineered using Requirements Engineering principles (SENG 321) to ensure 100% a
 
 ---
 
-### Crow WebSocket Chat Server (In Progress)
+### Crow WebSocket Chat Server — [crow-chat-server](https;//github.com/muhammadw8460/crow-chat-server)
 
-Currently building a lightweight web chat server using **Crow + Mustache** with:
+Built a lightweight web chat server using **Crow + Mustache** with:
 - username-based join flow,
 - real-time messaging over WebSockets,
 - and a simple frontend architecture (no heavy JS framework).
+
+---
+
+### Care Cast BC — [care-cast-bc](https;//github.com/muhammadw8460/care-cast-bc)
+
+> A modular forecasting pipeline for allied health workforce planning across BC health authorities.
+
+- Built a reproducible data workflow from public BC sources through cleaning, integration, and modeling
+- Implemented a Python preprocessing and quality-validation pipeline using Pandas and NumPy
+- Integrated cleaned datasets into a unified analytical table using SQL and DuckDB
+- Produced forecasting outputs with R (regression, trend projections, and report artifacts)
+- Generated stakeholder-ready outputs including charts, forecast tables, and data quality summaries
+
+**Tech:** Python · Pandas · NumPy · SQL · DuckDB · R · ggplot2
 
 ---
 
