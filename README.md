@@ -124,7 +124,7 @@ Engineered using Requirements Engineering principles (SENG 321) to ensure 100% a
 
 ---
 
-### Crow WebSocket Chat Server — [crow-chat-server](https;//github.com/muhammadw8460/crow-chat-server)
+### Crow WebSocket Chat Server — [crow-chat-server](https://github.com/muhammadw8460/crow-chat-server)
 
 Built a lightweight web chat server using **Crow + Mustache** with:
 - username-based join flow,
@@ -133,7 +133,7 @@ Built a lightweight web chat server using **Crow + Mustache** with:
 
 ---
 
-### Care Cast BC — [care-cast-bc](https;//github.com/muhammadw8460/care-cast-bc)
+### Care Cast BC — [care-cast-bc](https://github.com/muhammadw8460/care-cast-bc)
 
 > A modular forecasting pipeline for allied health workforce planning across BC health authorities.
 
